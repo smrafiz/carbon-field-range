@@ -1,0 +1,21 @@
+{
+	"name": "htmlburger/carbon-field-range",
+	"description": "A basic Carbon Fields extension, that adds support for Range slider field.",
+	"keywords": [ "wordpress", "carbon-field", "carbon-field-range" ],
+	"homepage": "http://yourhomepage.example.com",
+	"type": "library",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "S.M. Rafiz",
+			"email": "s.m.rafiz@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [ "field.php" ],
+		"psr-4": {
+			"Carbon_Field_Range\\": "core/"
+		}
+	}
+}
